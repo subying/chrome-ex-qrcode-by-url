@@ -1,0 +1,23 @@
+{
+  "name": "url qrcode",
+  "version": "1.0",
+  "description": "在地址栏显示图标",
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "page_action" :
+  {
+    "default_icon" : "src/ico_16.png",
+    "default_title" : "地址二维码图标",
+    "default_popup": "popup.html"
+  },
+  "permissions" : [
+    "declarativeContent"
+    ,"tabs"
+  ],
+  "icons" : {
+    "48" : "src/ico_48.png",
+    "128" : "src/ico_128.png"
+  },
+  "manifest_version": 2
+}
